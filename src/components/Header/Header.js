@@ -1,6 +1,9 @@
 import React from "react"
 // Import Custom Logo
 import logo from "../../images/customLogo.png"
+// Import Font Awesome & Icon
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 // Import Stylesheet
 import "./Header.css"
 
@@ -12,7 +15,7 @@ const Header = () => {
                     <img src={logo} alt="EJ's Custom Logo" className="logo" />
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+                    <FontAwesomeIcon icon={faBars} className="navBtn"/>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
