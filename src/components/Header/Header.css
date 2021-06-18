@@ -1,10 +1,14 @@
 :root {
-  --primary-whhite: #fff;
+  --primary-white: #fff;
   --primary-orange: #f9ab00;
 }
 
 .logo {
   width: 12.5rem;
+}
+
+nav {
+  z-index: 2;
 }
 
 nav a.nav-link {
@@ -20,7 +24,7 @@ nav ul li {
 .navbar-nav li a {
   margin-right: 0.75rem;
   margin-left: 0.75rem;
-  color: var(--primary-whhite) !important;
+  color: var(--primary-white) !important;
 }
 
 .navbar-brand {
@@ -38,5 +42,5 @@ nav ul li {
 }
 
 .navBtn {
-  color: var(--primary-whhite);
+  color: var(--primary-white);
 }
