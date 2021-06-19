@@ -7,6 +7,8 @@ import Header from "./components/Header/Header";
 import Jumbotron from './components/Jumbotron/Jumbotron';
 // Import Particles Component
 import Particles from 'react-particles-js';
+// Import About Me Component
+import AboutMe from './components/AboutMe/AboutMe';
 
 function App() {
   return (
@@ -34,6 +36,7 @@ function App() {
       />
       <Header/>
       <Jumbotron/>
+      <AboutMe/>
     </>
   );
 }
