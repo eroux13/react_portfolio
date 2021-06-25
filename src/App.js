@@ -9,6 +9,8 @@ import Jumbotron from './components/Jumbotron/Jumbotron';
 import Particles from 'react-particles-js';
 // Import About Me Component
 import AboutMe from './components/AboutMe/AboutMe';
+// Import Skills Component
+import Skills from './components/Skills/Skills';
 
 function App() {
   return (
@@ -37,6 +39,7 @@ function App() {
       <Header/>
       <Jumbotron/>
       <AboutMe/>
+      <Skills/>
     </>
   );
 }
