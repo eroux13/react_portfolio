@@ -1,6 +1,8 @@
 import React from "react";
 // Import Typed Effect
 import Typed from "react-typed";
+// Import Smooth Scroll
+import { Link } from "react-scroll";
 // Import Stylesheet
 import "./Jumbotron.css";
 
@@ -24,7 +26,8 @@ const Jumbotron = () => {
                     backSpeed={60}
                     loop
                 />
-                <a href="#" className="btn-main">Contact Me</a>
+                <Link smooth={true} to="contact" offset={-110} className="btn-main">Contact Me</Link>
+                {/* <a href="#" className="btn-main">Contact Me</a> */}
             </div>
         </div>
     )

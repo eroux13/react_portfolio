@@ -6,7 +6,7 @@ import "./AboutMe.css";
 
 const AboutMe = () => {
     return (
-        <div className="container py-5">
+        <div id="about" className="container py-5">
             <div className="row">
                 {/* xm or sm? */}
                 <div className="col-lg-6 col-xm-12">

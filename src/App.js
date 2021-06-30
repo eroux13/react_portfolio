@@ -17,6 +17,8 @@ import Skills from './components/Skills/Skills';
 import Experience from "./components/Experience/Experience";
 // Import Contact Component
 import Contact from "./components/Contact/Contact";
+// Import Footer Component
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -49,6 +51,7 @@ function App() {
       <Skills/>
       <Experience/>
       <Contact/>
+      <Footer/>
     </>
   );
 }

@@ -7,7 +7,7 @@ import "./Skills.css";
 
 const Skills = () => {
     return (
-        <div className="container py-5">
+        <div id="skills" className="container py-5">
             <div className="row">
                 <h1 className="skills my-5">Skills</h1>
                 <div className="col-2 skillLogo">
