@@ -9,7 +9,7 @@ const Skills = () => {
     return (
         <div className="container py-5">
             <div className="row">
-                <h1 className="skills">Skills</h1>
+                <h1 className="skills my-5">Skills</h1>
                 <div className="col-2 skillLogo">
                     <CircularProgressbarWithChildren value={95} styles={buildStyles({pathColor: "#f9ab00", trailColor: "#a9a9a9"})} className="progressCircle">
                         {/* Put any JSX content in here that you'd like. It'll be vertically and horizonally centered. */}
