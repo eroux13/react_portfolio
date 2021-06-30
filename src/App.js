@@ -15,6 +15,8 @@ import Portfolio from "./components/Portfolio/Portfolio";
 import Skills from './components/Skills/Skills';
 // Import Experience Component
 import Experience from "./components/Experience/Experience";
+// Import Contact Component
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -46,6 +48,7 @@ function App() {
       <Portfolio/>
       <Skills/>
       <Experience/>
+      <Contact/>
     </>
   );
 }
