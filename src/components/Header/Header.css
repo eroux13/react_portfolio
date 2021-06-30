@@ -1,6 +1,10 @@
 :root {
+  --primary-dark: rgb(52, 58, 64);
   --primary-white: #fff;
   --primary-orange: #f9ab00;
+  --primary-light-grey: #f4f4f4;
+  --primary-grey: #ccd1d9;
+  --primary-dark-grey: #666666;
 }
 
 .logo {
